@@ -4,7 +4,8 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# Use st.secrets to get the API key in Streamlit Cloud
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 def main():
     st.title("ThinkAI")
