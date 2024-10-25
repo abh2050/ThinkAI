@@ -5,7 +5,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# Access the API key from Streamlit secrets
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 def main():
     st.title("AI Decision-Making Assistant with OpenAI Integration")
