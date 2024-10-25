@@ -5,11 +5,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Access the API key from Streamlit secrets
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def main():
-    st.title("AI Decision-Making Assistant with OpenAI Integration")
+    st.title("ThinkAI")
 
     st.write("""
     Welcome to the AI Decision-Making Assistant! This tool will help you determine the appropriate AI or machine learning approach based on your needs and provide AI-generated assistance.
