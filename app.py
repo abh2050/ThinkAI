@@ -11,8 +11,15 @@ def main():
     st.title("ThinkAI")
 
     st.write("""
+    **ThinkAI - AI Decision-Making Assistant**
+
+    ThinkAI is an AI-powered decision-making assistant that helps users determine the most appropriate AI or machine learning approach based on their needs. Whether you’re looking to automate tasks, analyze data, or generate content, ThinkAI guides you through a series of questions to assess your goals, data availability, and business requirements. The app then provides AI-generated recommendations on suitable models, tools, and approaches to build your solution, empowering users to harness AI effectively even without extensive technical knowledge.
+    """)
+
+    st.write("""
     Welcome to the AI Decision-Making Assistant! This tool will help you determine the appropriate AI or machine learning approach based on your needs and provide AI-generated assistance.
     """)
+    
 
     # Step 1: Identify Your Main Goal
     st.header("Step 1: Identify Your Main Goal")
