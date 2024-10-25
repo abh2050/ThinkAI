@@ -2,6 +2,8 @@
 
 Welcome to the AI Decision-Making Assistant! This Streamlit application helps users determine the appropriate AI or machine learning approach based on their needs and provides AI-generated assistance using OpenAI's API.
 
+Applink: https://thinkai.streamlit.app/
+
 ## Features
 
 - **Goal Identification**: Helps users identify their main AI-related goals.
